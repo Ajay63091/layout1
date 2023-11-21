@@ -154,10 +154,6 @@ footer .all{
 }
 @media screen and (max-width: 768px) {
     
-    .gallery .image img{
-        width: 282px;
-        height: 321px;
-    }
 .gallery .lower, .image .content{
     padding: 0px;
 }
@@ -237,7 +233,7 @@ footer .all{
     padding: 0px;
    }
     footer .all{
-        font-size: 4px;
+        font-size: 12px;
         font-weight: bold;
     }
     
