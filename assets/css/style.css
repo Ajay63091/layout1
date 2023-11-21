@@ -204,6 +204,8 @@ footer .all{
    }
    .gallery{
     width: 100%;
+    padding: 0px;
+
     
     
    }
@@ -211,11 +213,17 @@ footer .all{
    .gallery .uppar, .gallery .lower{
     width: 100%;
     flex-direction: column;
+    padding: 0px;
     align-items: center;
    }
+
    .gallery .uppar .image, .gallery .lowee .image{
     width: 100%;
     height: auto;
+   }
+   .gallery .content{
+    width: 100%;
+    padding: 4%;
    }
    #all{
     padding-top: 2%;
@@ -224,7 +232,10 @@ footer .all{
    .uppar{
     padding: 0px;
    }
-    
+    footer .all{
+        font-size: 4px;
+        font-weight: bold;
+    }
     
     }
 /* media query section end */
