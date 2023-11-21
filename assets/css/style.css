@@ -136,16 +136,16 @@ footer .all{
 /* media query section start */
 @media screen and (max-width: 1200px){
     .gallery .image img{
-        width: 500px;
-        height: auto;
+        
+
 
     }
 }
 
 @media screen and (max-width: 992px) {
     .gallery .image img{
-        width:390px;
-       max-height:400px;
+        
+       
     } 
     .gallery .lower .content{
         padding-right: 15px;
@@ -153,10 +153,7 @@ footer .all{
 
 }
 @media screen and (max-width: 768px) {
-    .banner h1 span{
-        font-size: 37px;
-        font-weight: 600;  
-    } 
+    
     .gallery .image img{
         width: 282px;
         height: 321px;
@@ -170,12 +167,11 @@ footer .all{
 
 }
 @media screen and (max-width: 576px) {
-    header span{
-        display: block;
-    }
     header{
-        height: 90px;
+        display: block;
+        text-align: center;
     }
+    
     .banner{
         height: auto;
         flex-direction: column;
@@ -204,10 +200,8 @@ footer .all{
    }
    .gallery{
     width: 100%;
-    padding: 0px;
-
-    
-    
+    padding: 0px; 
+  
    }
    
    .gallery .uppar, .gallery .lower{
@@ -216,10 +210,20 @@ footer .all{
     padding: 0px;
     align-items: center;
    }
-
+   .gallery .image,
+   .gallery .content{
+       width:100%;
+   }
    .gallery .uppar .image, .gallery .lowee .image{
-    width: 100%;
+    width:98%;
+    padding:0 1%;
     height: auto;
+   }
+   .gallery .uppar .image img, .gallery .lowee .image img {
+
+    width:100%;
+    height: auto;
+
    }
    .gallery .content{
     width: 100%;
