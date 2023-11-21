@@ -1,0 +1,241 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+/* header section start */
+header{
+    display: flex;
+    background-color: #022D7C;
+    width: 100%;height: auto;
+    color: #FFF;
+    justify-content: space-between;
+    padding: 1%;
+}
+/* header section end */
+/* banner section start */
+.banner{
+   width: 100%;
+    height: 520px;
+    color: #FFF;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 10%;
+    align-items: center;
+    background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),
+     url("../img/ind.webp");
+     background-size: cover;
+
+}
+.banner h1{
+   
+    font-size: 45px;
+    font-weight: normal;
+}
+.banner h1 span{
+    display: block;
+    font-size: 56px;
+    font-weight: 600;
+}
+.banner aside{
+    padding: 20px;
+    border-radius:7px;
+    text-align: center;
+    background: #022d7c;
+}
+.banner aside input[type],
+.banner aside textarea,
+.banner aside button{
+    width: 100%;
+    margin: 7px;
+    height: 40px;
+    text-align: center;
+}
+/* banner section end */
+/* feature section start */
+.feature{
+    width: 100%;
+    height: auto;
+    display: flex;
+    color: #022D7C;
+    margin-top: 2%;
+    padding-left: 5%;
+    margin-bottom: 2%;
+    justify-content: space-between;
+}
+.feature img{
+    width: 90%;
+}
+.feature div p{
+    padding-right: 10px;
+}
+/* feature section end */
+/* about section start */
+.about{
+    width: 100%;
+    background-color: #022D7C;
+    color: #FFF;
+    padding: 2% 15%;
+    text-align: center;
+    font-size: 110%;
+    justify-content: center;
+}
+.about button{
+    margin-top: 3%;
+    background-color: #022D7C;
+    border: 2px solid #FFF;
+    padding: 1% 15%;
+    color: #fff;
+    font-size: 100%;
+}
+/* about section end */
+/* gallery section start */
+.gallery{
+    width: 100%;
+    height: auto;
+    padding: 0px 100px;
+}
+.gallery .uppar, .gallery .lower{
+    display: flex;
+    align-items: center;
+}
+.gallery .image,
+.gallery .content{
+    width: 50%;
+}
+.gallery .image img{
+    max-width: 100%;
+    height: auto;
+}
+.uppar #all{
+    padding-left: 5%;
+}
+#dolor{
+    padding-right: 5%;
+
+}
+/* gallery section end */
+/* footer section start */
+
+footer{
+    width: 100%;
+    height: auto;
+    background: #022d7c;
+    color: #fff;
+    padding: 40px 100px;
+    margin-top:25px ;
+    text-align: center;
+    
+}
+footer .all{
+    font-size: 25;
+    font-weight:bold ;
+}
+   
+/* footer section end */
+/* media query section start */
+@media screen and (max-width: 1200px){
+    .gallery .image img{
+        width: 500px;
+        height: auto;
+
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .gallery .image img{
+        width:390px;
+       max-height:400px;
+    } 
+    .gallery .lower .content{
+        padding-right: 15px;
+    }
+
+}
+@media screen and (max-width: 768px) {
+    .banner h1 span{
+        font-size: 37px;
+        font-weight: 600;  
+    } 
+    .gallery .image img{
+        width: 282px;
+        height: 321px;
+    }
+.gallery .lower, .image .content{
+    padding: 0px;
+}
+.gallery .uppar, .image .content{
+    padding: 0px;
+}
+
+}
+@media screen and (max-width: 576px) {
+    header span{
+        display: block;
+    }
+    header{
+        height: 90px;
+    }
+    .banner{
+        height: auto;
+        flex-direction: column;
+        justify-content: right;
+        padding: 20px;
+    }
+    .banner main{
+        text-align: center;
+        margin: 20px;
+    }
+    .banner main h1{
+        font-size: 45px;
+    }
+    aside{
+        width: 100%;
+    }
+    aside table{
+        width: 100%;
+    }
+   .feature{
+    width: 100%;
+    flex-direction: column;
+    margin: 40px 0px;
+    padding-right: 4%;
+    text-align: justify;
+   }
+   .gallery{
+    width: 100%;
+    
+    
+   }
+   
+   .gallery .uppar, .gallery .lower{
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+   }
+   .gallery .uppar .image, .gallery .lowee .image{
+    width: 100%;
+    height: auto;
+   }
+   #all{
+    padding-top: 2%;
+    padding-left: -13%;
+   }
+   .uppar{
+    padding: 0px;
+   }
+    
+    
+    }
+/* media query section end */
+    
+
+
+
+
+    
+
+
+   
+
+ 
